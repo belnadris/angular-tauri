@@ -1,6 +1,6 @@
-import {TestBed, waitForAsync} from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 import {AppComponent} from './app.component';
-import {TranslateModule} from '@ngx-translate/core';
+import {provideTranslateService} from '@ngx-translate/core';
 import {TauriService} from './core/services';
 import {provideRouter} from '@angular/router';
 
@@ -8,8 +8,8 @@ describe('AppComponent', () => {
   beforeEach(async() => {
     await TestBed.configureTestingModule({
       declarations: [],
-      imports: [AppComponent, TranslateModule.forRoot()],
-      providers: [provideRouter([]), TauriService]
+      imports: [AppComponent],
+      providers: [provideRouter([]), TauriService, provideTranslateService()]
     }).compileComponents();
   });
 

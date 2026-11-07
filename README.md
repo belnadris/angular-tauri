@@ -12,12 +12,12 @@
 
 # Introduction
 
-Bootstrap and package your project with Angular 21 (Typescript + SASS + Hot Reload) and Tauri (Rust) for creating Desktop applications.
+Bootstrap and package your project with Angular 22 (Typescript + SASS + Hot Reload) and Tauri (Rust) for creating Desktop applications.
 
 Currently runs with:
 
-- Angular v21.0.3
-- Tauri 2.1.1
+- Angular v22.2.4
+- Tauri 2.12.5
 
 With this sample, you can:
 
@@ -25,7 +25,7 @@ With this sample, you can:
 - Run your app in a production environment
 - Package your app into an executable file for Linux, Windows & Mac
 
-/!\ Angular CLI needs Node 22 or later to work correctly.
+/!\ Angular CLI needs Node 22.22, 24.15 or 26 (recommended) or later to work correctly.
 
 ## Getting Started
 
